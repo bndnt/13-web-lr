@@ -110,13 +110,13 @@ input{
         Напишіть скрипт для складання двох чисел, двох рядків, рядка і числа.
     </p>
     <label for="a">Input first number</label>&nbsp&nbsp&nbsp&nbsp
-    <input type="text" id="a" value="0" name="a"><br>
+    <input type="text" id="a" onclick="value=''" value="0" name="a"><br>
     <label for="b">Input second number  </label>
-    <input type="text" id="b" value="0" name="b"><br>
+    <input type="text" id="b" onclick="value=''" value="0" name="b"><br>
     <label for="c">Input first string</label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-    <input type="text" id="c" value="0" name="c"><br>
+    <input type="text" id="c" onclick="value=''" value="0" name="c"><br>
     <label for="d">Input second string </label>&nbsp
-    <input type="text" id="d" value="0" name="d"><br>
+    <input type="text" id="d" onclick="value=''" value="0" name="d"><br>
     <input type="button" OnClick="button()" value="start">
     <div id="output"></div>
     <script>
@@ -144,9 +144,9 @@ input{
         (87*y/8+2*x/5-33)*6 при x=7*v-5, y=5*v-7
     </p>
     <label for="v">Input v</label>
-    <input type="text" id="v" value="0" name="v"><br>
+    <input type="text" id="v" onclick="value=''" value="0" name="v"><br>
     <label for="n">Input n</label>
-    <input type="text" id="n" value="0" name="n"><br>
+    <input type="text" id="n" onclick="value=''" value="0" name="n"><br>
     <input type="button" OnClick="rez()" value="start">
     <div id="output2"></div>
     <script>
@@ -190,13 +190,13 @@ input{
 
 </div>
 
-<script>
-    document.getElementById('a').value = "";//очищаю поля от 0
-    document.getElementById('b').value = "";
-    document.getElementById('c').value = "";
-    document.getElementById('d').value = "";
-    document.getElementById('v').value = "";
-    document.getElementById('n').value = "";
-</script>
+<!--<script>-->
+<!--    document.getElementById('a').value = "";//очищаю поля от 0-->
+<!--    document.getElementById('b').value = "";-->
+<!--    document.getElementById('c').value = "";-->
+<!--    document.getElementById('d').value = "";-->
+<!--    document.getElementById('v').value = "";-->
+<!--    document.getElementById('n').value = "";-->
+<!--</script>-->
 </body>
 </html>
